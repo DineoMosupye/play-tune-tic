@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        game: {
+          x: "hsl(var(--game-x))",
+          o: "hsl(var(--game-o))",
+          win: "hsl(var(--game-win))",
+          draw: "hsl(var(--game-draw))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -58,10 +64,26 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-card': 'var(--gradient-card)',
+        'gradient-game': 'var(--gradient-game)',
+      },
+      boxShadow: {
+        'neon': 'var(--shadow-neon)',
+        'card': 'var(--shadow-card)',
+        'glow-x': 'var(--glow-x)',
+        'glow-o': 'var(--glow-o)',
+        'glow-win': 'var(--glow-win)',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'bounce': 'var(--transition-bounce)',
       },
       keyframes: {
         "accordion-down": {

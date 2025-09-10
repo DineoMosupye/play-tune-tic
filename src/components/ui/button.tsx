@@ -15,6 +15,10 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        game: "bg-gradient-primary text-primary-foreground hover:shadow-neon transition-all duration-300 transform hover:scale-105",
+        gameSecondary: "bg-secondary text-secondary-foreground border border-border/50 hover:bg-secondary/80 hover:border-primary/30 transition-all duration-300",
+        win: "bg-game-win text-background hover:bg-game-win/90 shadow-glow-win",
+        danger: "bg-destructive text-destructive-foreground hover:bg-destructive/90 transition-all duration-300"
       },
       size: {
         default: "h-10 px-4 py-2",
